@@ -55,7 +55,7 @@
                 pattern = "[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+(?:[A-Z]{2}|com|org|net|gov|mil|biz|info|mobi|name|aero|jobs|museum)\b"
             >
             <div [hidden]="!userEmail.errors?.required" class="invalid-feedback">
-                First Name Required
+                Email Required
             </div>
 
             <div [hidden]="!userEmail.errors?.pattern" class="invalid-feedback">
